@@ -1,4 +1,4 @@
-function Intro(name) {
+function intro(name) {
   console.log(" Hii!" + name);
   console.log(" The Game is 'DARE TO WIN THE GIFT'  ");
   console.log();
@@ -64,7 +64,7 @@ function matchNumber(number1, maxAttempts) {
 
 function guessTheNumber() {
   const name = prompt(' Please enter your name  : ');
-  Intro(name);
+  intro(name);
   const startGame = confirm(" Are you dare enough to win the gift ? ");
 
   if (startGame) {
